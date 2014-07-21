@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.films" name="Films" version="2.0.2" provider-name="playnowbox">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.metahandler" version="1.0.0"/>
+		<import addon="script.module.urlresolver" version="1.0.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+		<import addon="plugin.video.youtube" version="2.9.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch movies from various sources</summary>
+		<description lang="en">Watch movies from various sources</description>
+		<summary lang="nl">Bekijk Speelfilms van verscheidene bronnen</summary>
+		<description lang="nl">Bekijk Speelfilms van verscheidene bronnen</description>
+		<disclaimer lang="en">De auteur en distributeur host zelf geen content, en aanvaard geen enkele aansprakelijk.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/playnowbox/repo</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.filmsen3d"
+       name="Films en 3D"
+       version="2.0.2"
+       provider-name="playnowbox">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"  version="0.0.1"/>
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+		<import addon="script.module.metahandler"  version="1.0.2"/>
+		<import addon="script.module.beautifulsoup"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kijk nog meer films en 3D films.</summary>
+    <description lang="en">Browse and play a wide selection of movies from the sites like Movie25.com, watchfreeseres, seriesgate, rlsmx, newmyvidelinks etc.
+	</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.meerfilms" name="Meer Films" version="2.0.2" provider-name="playnowbox">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.metahandler" version="1.0.0"/>
+		<import addon="script.module.urlresolver" version="1.0.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+		<import addon="plugin.video.youtube" version="2.9.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch a wide selection of movies from viooz.co</summary>
+		<description lang="en">Watch a wide selection of movies from viooz.co</description>
+		<summary lang="el">Παρακολουθήστε μια ευρεία συλλογή ταινιών από το viooz.co</summary>
+		<description lang="el">Παρακολουθήστε μια ευρεία συλλογή ταινιών από το viooz.co</description>
+		<summary lang="fr">Regardez des films en version originale (Anglais)</summary>
+		<description lang="fr">Regardez des films en version originale (Anglais)</description>
+		<summary lang="nl">Bekijk Speelfilms vanaf viooz.co</summary>
+		<description lang="nl">Bekijk Speelfilms vanaf viooz.co</description>
+		<summary lang="pl">Oglądaj filmy z viooz.co</summary>
+		<description lang="pl">Oglądaj filmy z viooz.co</description>
+		<summary lang="pt">Assistir a uma vasta selecção de filmes do site viooz.co</summary>
+		<description lang="pt">Assistir a uma vasta selecção de filmes do site viooz.co</description>
+		<summary lang="pt_BR">Assistir a uma vasta selecção de filmes do site viooz.co</summary>
+		<description lang="pt_BR">Assistir a uma vasta selecção de filmes do site viooz.co</description>
+		<summary lang="ro">Urmărește filme de viooz.co</summary>
+		<description lang="ro">Urmărește filme de viooz.co</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/playnowbox</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.series" name="Series" version="2.0.2" provider-name="playnowbox">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.metahandler" version="1.0.0"/>
+		<import addon="script.module.urlresolver" version="1.0.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+		<import addon="plugin.video.youtube" version="2.9.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch tv shows from various sources</summary>
+		<description lang="en">Watch tv shows from various sources</description>
+		<summary lang="nl">Bekijk TV Series van verscheidene bronnen</summary>
+		<description lang="nl">Bekijk TV Series van verscheidene bronnen</description>
+		<disclaimer lang="en">De auteur en distributeur host zelf geen content, en aanvaard geen enkele aansprakelijk.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/playnowbox/repo</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.playnowbox" name="PLAY-NOW XBMC Addons" version="1.0.1" provider-name="playnowbox">
+	<extension point="xbmc.addon.repository" name="PLAY-NOW XBMC Addon Repository">
+		<info compressed="false">http://xbmc-speler.nl/addons.xml</info>
+		<checksum>http://xbmc-speler.nl/addons.xml.md5</checksum>
+		<datadir zip="true">http://xbmc-speler.nl/repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="nl">Installeer PLAY-NOW Addons</summary>
+		<summary lang="en">Install PLAY-NOW Addons</summary>
+
+		<description lang="en">Download and install addons by PLAY-NOW</description>
+
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

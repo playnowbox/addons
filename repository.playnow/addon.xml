@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.playnowbox" name="PLAY-NOW XBMC Addons" version="1.0.1" provider-name="playnowbox">
+	<extension point="xbmc.addon.repository" name="PLAY-NOW XBMC Addon Repository">
+		<info compressed="false">http://xbmc-speler.nl/addons.xml</info>
+		<checksum>http://xbmc-speler.nl/addons.xml.md5</checksum>
+		<datadir zip="true">http://xbmc-speler.nl/repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="nl">Installeer PLAY-NOW Addons</summary>
+		<summary lang="en">Install PLAY-NOW Addons</summary>
+		
+		<description lang="en">Download and install addons by PLAY-NOW</description>
+	
+		<platform>all</platform>
+	</extension>
+</addon>
+
