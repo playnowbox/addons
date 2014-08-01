@@ -1,5 +1,5 @@
 ------------------------
-Films v2.0.1 (5-Jul-14)
+Films v3.0.1 (1-Aug-14)
 ------------------------
 
-- Initial version
+- Ready to launch version

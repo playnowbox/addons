@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.films" name="Films" version="2.0.3" provider-name="playnowbox">
+<addon id="plugin.video.films" name="Films" version="3.0.1" provider-name="playnowbox">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.metahandler" version="1.0.0"/>
@@ -30,7 +30,7 @@
 
 <addon id="plugin.video.filmsen3d"
        name="Films en 3D"
-       version="2.0.2"
+       version="3.0.1"
        provider-name="playnowbox">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -51,7 +51,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.meerfilms" name="Meer Films" version="2.0.2" provider-name="playnowbox">
+<addon id="plugin.video.meerfilms" name="Meer Films" version="3.0.1" provider-name="playnowbox">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.metahandler" version="1.0.0"/>
@@ -89,7 +89,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.series" name="Series" version="2.0.2" provider-name="playnowbox">
+<addon id="plugin.video.series" name="Series" version="3.0.1" provider-name="playnowbox">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.metahandler" version="1.0.0"/>
