@@ -4,22 +4,11 @@
 <channels>
  
 <channel>
-     <name>[COLOR white]NPO (GEO BLOCKED)[/COLOR]</name>
-   <thumbnail>http://i.imgur.com/VFqSSyN.png</thumbnail>
-<fanart>http://dutchsportstreams.com/cloudtv/images/nlfanart.jpg</fanart>
-<link>http://ignoreme</link>
-    <externallink>http://dctv.comlu.com/xml/npo.xml</externallink>
-</channel>
-   </channels>
-
-<channels>
- 
-<channel>
      <name>[COLOR white]IPTV SANDER TEST playnow[/COLOR]</name>
    <thumbnail>http://i.imgur.com/VFqSSyN.png</thumbnail>
 <fanart>http://dutchsportstreams.com/cloudtv/images/nlfanart.jpg</fanart>
 <link>http://ignoreme</link>
-    <externallink>http://dctv.comlu.com/xml/Nederland.m3u</externallink>
+    <externallink>http://iptvunlimited.no-ip.org:8000/get.php?username=F6BtELl32h&password=jFphguiNwI&type=m3u&output=mpegts</externallink>
 </channel>
    </channels>
 
