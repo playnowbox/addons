@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<layoutype>list</layoutype>
+
+<channels>
+ 
+<channel>
+     <name>[COLOR white]NPO (GEO BLOCKED)[/COLOR]</name>
+   <thumbnail>http://i.imgur.com/VFqSSyN.png</thumbnail>
+<fanart>http://dutchsportstreams.com/cloudtv/images/nlfanart.jpg</fanart>
+<link>http://ignoreme</link>
+    <externallink>http://dctv.comlu.com/xml/npo.xml</externallink>
+</channel>
+   </channels>
+
+<channels>
+ 
+<channel>
+     <name>[COLOR white]IPTV SANDER TEST playnow[/COLOR]</name>
+   <thumbnail>http://i.imgur.com/VFqSSyN.png</thumbnail>
+<fanart>http://dutchsportstreams.com/cloudtv/images/nlfanart.jpg</fanart>
+<link>http://ignoreme</link>
+    <externallink>http://dctv.comlu.com/xml/Nederland.m3u</externallink>
+</channel>
+   </channels>
+
+   
+ <channels>
+ 
+<channelss>
+     <name>[COLOR white]IPTV 2[/COLOR]</name>
+   <thumbnail>http://i.imgur.com/VFqSSyN.png</thumbnail>
+<fanart>http://dutchsportstreams.com/cloudtv/images/nlfanart.jpg</fanart>
+<link>http://ignoreme</link>
+    <externallink>http://dctv.comlu.com/xml/nl.xml</externallink>
+</channelss>
+   </channels>
+ 
+<channels>
+ 
+<channel>
+     <name>[COLOR white]Regionaal[/COLOR]</name>
+   <thumbnail>http://i.imgur.com/VFqSSyN.png</thumbnail>
+<fanart>http://dutchsportstreams.com/cloudtv/images/nlfanart.jpg</fanart>
+<link>http://ignoreme</link>
+    <externallink>http://dctv.comlu.com/xml/tvregionaal.xml</externallink>
+</channel>
+   </channels>
+
+<channels>
+ 
+<channel>
+     <name>[COLOR white]Lokaal[/COLOR]</name>
+   <thumbnail>http://i.imgur.com/VFqSSyN.png</thumbnail>
+<fanart>http://dutchsportstreams.com/cloudtv/images/nlfanart.jpg</fanart>
+<link>http://ignoreme</link>
+    <externallink>http://dctv.comlu.com/xml/tvlokaal.xml</externallink>
+</channel>
+   </channels>
